@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    display:grid;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:12px;
+    background:rgba(166, 166, 166, 0.6);
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding:25px;
+    color:whitesmoke;
+}
+
+nav ul li a:hover{
+   color:indigo;
+}
+.drop-list{
+    display:none;
+    background:gray;
+    position: absolute;
+    margin-top:20px;
+}
+.list:hover .drop-list{
+    display:block;
+}
+
+.drop-list a{
+    display:block;
+    padding:14px;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.list{
+    display:inline-block;
+    position: relative;
+}
+.menu-list{
+    display:none;
+    margin-left:100%;
+    position: absolute;
+    background:gray;
+    margin-top: -50%;
+}
+
+.sub-list:hover .menu-list{
+    display:block;
+}
+
+.sub-list{
+    display:block;
+    position: relative;
+}
+
+.menu-list a{
+    display:block;
+    text-decoration:none;
+    line-height: 1;
+}
+
+
+h3{
+    color:whitesmoke;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+h3:hover{
+    color:indigo;
+}
+
+button{
+    padding:5px;
+    margin-right:3%;
+    border:none;
+    border-radius:6px 5px 6px 5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:rgba(166, 166, 166, 0.6);
+    color:indigo;
+}
+
+.img-profile img{
+    width:100%;
+    height:450px;
+}
+
+.about{
+    text-align: center;
+    color: rgba(166, 166, 166, 0.6);
+    margin-top: 20px;
+   
+}
+.about-img{
+    float: left;
+    height: 100px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+h4{
+    float: right;
+    margin-right:250px;
+    margin-top: 20px;
+    position: relative;
+}
+
+h2{
+    text-align: center;
+    color: rgba(166, 166, 166, 0.6);
+    margin-bottom: 0px;
+   
+}
